@@ -1,0 +1,113 @@
+/* Write some CSS below */
+h1{
+	color: #500072; font-size: 38px; text-align: center;
+	letter-spacing: 4.5px;
+	padding-top: 55px;
+}
+.span{
+	font-size: 25px; font-family: ariel;letter-spacing: 3px;
+}
+
+.button {
+  background-color: darkorange;
+  color: white;
+  border-style: solid;
+  border-color: darkorange;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 32px
+}
+.center{
+	text-align: center;
+}
+.button: hover{
+	background-color: #0D1EC6;
+	color: white;
+	;
+}
+h2{
+	color:#028A0F; font-size: 30px; letter-spacing: 4.5px; text-decoration: none; text-align: center;
+}
+p{
+	text-align: center; color: #893101; font-family: arial;
+}
+a {
+	text-decoration: none;
+}
+.banner{ 
+	background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url("images/mouse.jpg");
+	background-size: cover;
+  background-position: center;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.banner h1{
+	color: white;
+	margin-bottom: 300px;
+	text-align: left;
+	margin-left: 55px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	margin-bottom: 50px;
+
+}
+ @media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+ }
+
+.card{
+	background-color: white;
+	box-shadow: 2px 2px 2px lightgreen;
+	border-style: inset;
+	border-color: lightgreen;
+	border-radius: 2px;
+	padding: 20px;
+	margin: 10px;
+	width: 250px;
+	text-align: center;
+}
+.container{
+	width: 1000px;
+	margin: auto;
+
+}
+.footer{ 
+	 background: white;
+    text-align: center;
+    padding: 24px 0;
+ }
+ .footer h2{ 
+    color: black; 
+}
